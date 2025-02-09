@@ -1,0 +1,131 @@
+body {
+   background-color: #314D4A;
+   height: 100%;
+}
+
+.offpage {
+   position: absolute;
+   left: -1000px;
+}
+
+.offpage:focus {
+   left: 0;
+   background-color: white;
+}
+
+header {
+    background-color: #A6C288;
+ }
+
+ .caratula {
+   display: grid;
+   grid-template-columns: 70% 30%;
+   grid-column-gap: 1%;
+   align-items: center;
+ }
+
+ .titulo_caratula {
+   display: inline-block;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #17181F;
+ }
+
+ .titulo_caratula h1 {
+   font-size: xx-large;
+   font-weight: bold;
+ }
+
+.foto_caratula {
+   display: flex;
+   justify-content: center;
+}
+
+ .foto_caratula img{
+   width: 20%;
+   height: 20%;
+   margin: 1%;
+ }
+
+.menu_navegacion {
+   background-color: #314D4A;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+ .menu_navegacion nav {
+   display: flex;
+   width: 50%;
+   justify-content: center;
+ }
+
+ .menu_navegacion nav ul {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+ }
+
+ .menu_navegacion nav ul li {
+   display: flex;
+   justify-content: center;
+   background-color: #436360;
+   width: 100%;
+   list-style-type: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #17181F;
+   border: groove;
+   margin-left: 2%;
+ }
+
+ .menu_opciones {
+   text-decoration: none;
+   color: white;
+ }
+
+ .menu_opciones:hover {
+   width: 100%;
+   background-color: #17181F;
+   color: white;
+ }
+
+ main {
+   color: white;
+   flex: 1;
+ }
+
+ #imagen_inicio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .pie {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin-top: 5%;
+   font-size: x-small;
+   color: white;
+ }
+
+ .main_galeria {
+   display: grid;
+   grid-template-columns: 40% 40%;
+   justify-content: center;
+   row-gap: 5%;
+   column-gap: 5%;
+ }
+
+ .main_galeria img {
+   width: 60%;
+   height: auto;
+ }
+
+ .main_galeria img:hover {
+   border: solid;
+   border-color: black;
+   width: 80%;
+   height: auto;
+   padding: 1%;
+ }
